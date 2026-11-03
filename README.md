@@ -10,3 +10,7 @@ para poder utilizar nosso agente é no terminal necessario
 3. Roda .\venv\Scripts\Activate.ps1 (Ativa o ambiente)
 4. Roda pip install -r requirements.txt (instala as bibliotecas necessarias)
 5. Roda python -m streamlit run app.py ( não é necessario por um email, basta clicar em enter)
+TESTE FEITOS
+Contexto:Lembrança de informações fornecidas em turnos anteriores da conversa.
+Foco Educacional: Restrição de escopo para atuar como tutor pedagógico.
+Multidisciplinaridade: Testes bem-sucedidos em Matemática, História e Ciências.
