@@ -395,7 +395,10 @@ if prompt and prompt.strip():
                     session_id=st.session_state.session_id
                 )
 
-                st.markdown(response)
+                st.markdown(
+                    response,
+                    unsafe_allow_html=False
+                )
 
                 st.session_state.messages.append({
                     "role": "assistant",
